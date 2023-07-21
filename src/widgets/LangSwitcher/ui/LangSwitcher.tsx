@@ -13,7 +13,7 @@ export enum Languages {
 }
 
 export const LangSwitcher = ({ className }: LangSwitcherProps) => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const switchToRusLang = () => {
     i18n.changeLanguage(Languages.RU);
   };
