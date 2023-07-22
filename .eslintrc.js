@@ -3,6 +3,9 @@ module.exports = {
     react: {
       version: "detect",
     },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"],
+    },
   },
   env: {
     browser: true,
