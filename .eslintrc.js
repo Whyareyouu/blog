@@ -1,25 +1,32 @@
+// eslint-disable-next-line no-undef
 module.exports = {
   settings: {
     react: {
-      version: "detect"
+      version: "detect",
     },
     "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
-    }
+      "@typescript-eslint/parser": [".ts", ".tsx"],
+    },
   },
   env: {
     browser: true,
     es2021: true,
-    jest: true
+    jest: true,
   },
-  extends: ["eslint:recommended", "plugin:react/recommended", "plugin:@typescript-eslint/recommended", "plugin:i18next/recommended", "plugin:storybook/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:i18next/recommended",
+    "plugin:storybook/recommended",
+  ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     ecmaVersion: "latest",
-    sourceType: "module"
+    sourceType: "module",
   },
   plugins: ["react", "@typescript-eslint", "i18next"],
   rules: {
@@ -35,22 +42,30 @@ module.exports = {
     "react/function-component-definition": "off",
     "no-shadow": "off",
     "no-underscore-dangle": "off",
-    "i18next/no-literal-string": ["error", {
-      markupOnly: true,
-      ignoreAttribute: ["data-testid"]
-    }],
-    "max-len": ["error", {
-      ignoreComments: true,
-      code: 100
-    }]
+    "i18next/no-literal-string": [
+      "error",
+      {
+        markupOnly: true,
+        ignoreAttribute: ["data-testid"],
+      },
+    ],
+    "max-len": [
+      "error",
+      {
+        ignoreComments: true,
+        code: 100,
+      },
+    ],
   },
   globals: {
-    __IS_DEV__: true
+    __IS_DEV__: true,
   },
-  overrides: [{
-    files: ["**/src/**/*.test.{ts,tsx}"],
-    rules: {
-      "i18next/no-literal-string": "off"
-    }
-  }]
+  overrides: [
+    {
+      files: ["**/src/**/*.test.{ts,tsx}"],
+      rules: {
+        "i18next/no-literal-string": "off",
+      },
+    },
+  ],
 };

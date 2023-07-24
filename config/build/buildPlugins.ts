@@ -1,7 +1,7 @@
-import HTMLWebpackPlugin from "html-webpack-plugin";
-import webpack from "webpack";
+import HTMLWebpackPlugin = require("html-webpack-plugin");
+import webpack = require("webpack");
 import { BuildOptions } from "./types/config";
-import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import MiniCssExtractPlugin = require("mini-css-extract-plugin");
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 
 export function buildPlugins({

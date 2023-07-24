@@ -1294,10 +1294,15 @@
   dependencies:
     eslint-visitor-keys "^3.3.0"
 
-"@eslint-community/regexpp@^4.4.0", "@eslint-community/regexpp@^4.5.0", "@eslint-community/regexpp@^4.5.1":
+"@eslint-community/regexpp@^4.4.0", "@eslint-community/regexpp@^4.5.0":
   version "4.5.1"
   resolved "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.5.1.tgz"
   integrity sha512-Z5ba73P98O1KUYCCJTUeVpja9RcGoMdncZ6T49FCUl2lN38JtCJ+3WgIDBv0AuY4WChU5PmtJmOCTlN6FZTFKQ==
+
+"@eslint-community/regexpp@^4.5.1":
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/@eslint-community/regexpp/-/regexpp-4.6.1.tgz#0b371c118b8e4ebf9dbddb56120ab4befd791211"
+  integrity sha512-O7x6dMstWLn2ktjcoiNLDkAGG2EjveHL+Vvc+n0fXumkJYAcSqcVYKtwDU+hDZ0uDUsnUagSYaZrOLAYE8un1A==
 
 "@eslint/eslintrc@^2.1.0":
   version "2.1.0"
@@ -3458,7 +3463,7 @@
 
 "@typescript-eslint/eslint-plugin@^6.1.0":
   version "6.1.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.1.0.tgz#96f3ca6615717659d06c9f7161a1d14ab0c49c66"
   integrity sha512-qg7Bm5TyP/I7iilGyp6DRqqkt8na00lI6HbjWZObgk3FFSzH5ypRwAHXJhJkwiRtTcfn+xYQIMOR5kJgpo6upw==
   dependencies:
     "@eslint-community/regexpp" "^4.5.1"
@@ -3513,7 +3518,7 @@
 
 "@typescript-eslint/type-utils@6.1.0":
   version "6.1.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-6.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/type-utils/-/type-utils-6.1.0.tgz#21cc6c3bc1980b03f9eb4e64580d0c5be6f08215"
   integrity sha512-kFXBx6QWS1ZZ5Ni89TyT1X9Ag6RXVIVhqDs0vZE/jUeWlBv/ixq2diua6G7ece6+fXw3TvNRxP77/5mOMusx2w==
   dependencies:
     "@typescript-eslint/typescript-estree" "6.1.0"
@@ -3559,7 +3564,7 @@
 
 "@typescript-eslint/utils@6.1.0":
   version "6.1.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/utils/-/utils-6.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-6.1.0.tgz#1641843792b4e3451cc692e2c73055df8b26f453"
   integrity sha512-wp652EogZlKmQoMS5hAvWqRKplXvkuOnNzZSE0PVvsKjpexd/XznRVHAtrfHFYmqaJz0DFkjlDsGYC9OXw+OhQ==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
@@ -8721,7 +8726,7 @@ nanoid@^3.3.6:
 
 natural-compare-lite@^1.4.0:
   version "1.4.0"
-  resolved "https://registry.npmjs.org/natural-compare-lite/-/natural-compare-lite-1.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/natural-compare-lite/-/natural-compare-lite-1.4.0.tgz#17b09581988979fddafe0201e931ba933c96cbb4"
   integrity sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==
 
 natural-compare@^1.4.0:

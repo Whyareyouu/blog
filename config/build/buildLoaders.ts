@@ -1,4 +1,4 @@
-import webpack from "webpack";
+import webpack = require("webpack");
 import { BuildOptions } from "./types/config";
 import { buildCssLoader } from "./loaders/buildCssLoader";
 import { buildSvgLoader } from "./loaders/buildSvgLoader";
