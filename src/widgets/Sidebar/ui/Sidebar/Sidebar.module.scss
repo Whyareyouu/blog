@@ -4,8 +4,21 @@
     background: var(--navbar-bg);
     position: relative;
     transition: width 0.3s;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
 }
 
 .collapsed{
     width: var(--sidebar-width-collapsed);
+}
+
+.Button{
+    margin-right: 10px;
+}
+
+.sidebar_icon {
+    path{
+        fill: var(--inverted-primary-color);
+    }
 }

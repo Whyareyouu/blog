@@ -4,11 +4,11 @@
 		"noImplicitAny": true,
 		"module": "esnext",
 		"target": "es5",
-		"jsx": "react-jsx",
-		"allowJs": true,
 		"moduleResolution": "node",
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
+		"jsx": "react-jsx",
+		"allowJs": true,
 		"baseUrl": ".",
 		"paths": {
 			"*": ["./src/*"]
