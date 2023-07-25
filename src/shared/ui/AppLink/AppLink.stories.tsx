@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { AppLink, AppLinkTheme } from "./AppLink";
+import { AppLink, AppLinkSize, AppLinkTheme } from "./AppLink";
 import { ThemeDecorator } from "shared/config/storybook/ThemeDecorator/ThemeDecorator";
 import { Theme } from "app/providers/ThemeProvider";
 
@@ -45,4 +45,19 @@ export const AppLinkSecondaryDark: Story = {
     theme: AppLinkTheme.SECONDARY,
   },
   decorators: [ThemeDecorator(Theme.DARK)],
+};
+
+export const AppLinkSizeL: Story = {
+  args: {
+    children: "size l",
+    to: "/test",
+    size: AppLinkSize.L,
+  },
+};
+export const AppLinkSizeXL: Story = {
+  args: {
+    children: "size xl",
+    to: "/test",
+    size: AppLinkSize.XL,
+  },
 };

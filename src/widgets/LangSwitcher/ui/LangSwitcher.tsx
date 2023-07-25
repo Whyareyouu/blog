@@ -13,20 +13,18 @@ export enum Languages {
 }
 
 export const LangSwitcher = ({ className }: LangSwitcherProps) => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const switchToRusLang = () => {
-    i18n.changeLanguage(Languages.RU);
-  };
-  const switchToEnLang = () => {
-    i18n.changeLanguage(Languages.EN);
+    i18n.changeLanguage(i18n.language === "ru" ? "en" : "ru");
   };
   return (
     <div className={classNames(styles.LangSwitcher, {}, [className])}>
-      <Button theme={ThemeButton.CLEAR} onClick={switchToRusLang}>
-        RU
-      </Button>
-      <Button theme={ThemeButton.CLEAR} onClick={switchToEnLang}>
-        EN
+      <Button
+        theme={ThemeButton.CLEAR}
+        onClick={switchToRusLang}
+        className={styles.LangSwitcher}
+      >
+        {t("Язык")}
       </Button>
     </div>
   );

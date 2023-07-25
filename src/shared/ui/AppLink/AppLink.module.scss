@@ -10,3 +10,18 @@
 .secondary{
     color: var(--seondary-color);
 }
+
+.size_m{
+    font-size: var(--font-size-m);
+    line-height: var(--font-line-m);
+}
+
+.size_l{
+    font-size: var(--font-size-l);
+    line-height: var(--font-line-l);
+}
+
+.size_xl{
+    font-size: var(--font-size-xl);
+    line-height: var(--font-line-xl);
+}
