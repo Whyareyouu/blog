@@ -5,6 +5,7 @@ import { ButtonHTMLAttributes, FC } from "react";
 export enum ThemeButton {
   CLEAR = "clear",
   OUTLINE = "outline",
+  CLEAR_INVERTED = "clearInverted",
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

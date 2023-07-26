@@ -40,3 +40,10 @@ export const OutlineDark: Story = {
   },
   decorators: [ThemeDecorator(Theme.DARK)],
 };
+
+export const ClearInveted: Story = {
+  args: {
+    children: "Text",
+    theme: ThemeButton.CLEAR_INVERTED,
+  },
+};

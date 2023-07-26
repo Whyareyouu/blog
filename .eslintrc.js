@@ -28,7 +28,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint", "i18next"],
+  plugins: ["react", "@typescript-eslint", "i18next", "react-hooks"],
   rules: {
     indent: ["error", 2],
     "linebreak-style": ["error", "windows"],
@@ -56,6 +56,8 @@ module.exports = {
         code: 100,
       },
     ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error"
   },
   globals: {
     __IS_DEV__: true,
